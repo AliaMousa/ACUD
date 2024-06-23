@@ -1,0 +1,225 @@
+TASK1: install automation content navigator
+1- subscription-manager regiter
+2- subscription-manager repos --enable ansible-automation-platform....
+3- dnf install ansible-navigator -y
+# to pull the container image you should login to the registry
+4- podman login hub.lab.example.com
+# to lanuch automation content navigator --> ansible-navigator --eei ****** 
+
+**Initial Git Configuration**
+#Using git config with the --global option manages the default settings for all Git projects to which you contribute by saving the settings in your ~/.gitconfig file.
+$it config --global user.name 'Peter Shadowman'
+$git config --global user.email peter@host.example.com
+#Before Git pushes can work, you must define the default push method to use. The following command sets the default push method to the simple method. This is the safest option for beginners.
+$git config --global push.default simple
+
+$vim ~/.bashrc
+source /usr/share/git-core/contrib/completion/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export PS1='[\u@\h \W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+
+#Creating Branches from Earlier Commits
+$git checkout -b feature/3
+
+#Pushing Branches to Remote Repositories - For example, to push your new feature/3 branch to your remote repository, run the following commands
+git push --set-upstream origin feature/3
+
+TASK2: modified files stored in an existing Git repository.
+1- git clone https://urlforgitrepo.git
+2- cd project-name
+3- git checkout -b test
+# Configure the global Git settings for the student user to specify a username, an email address, and a default push method. Additionally, specify the username to use when connecting to https://git.lab.example.com and allow Git to remember your password for two hours.
+4- git config --global user.name 'Student User'
+5- git config --global user.email student@lab.example.com
+6- git config --global push.default simple
+7- git config --global credential.https://git.lab.example.com.username student 
+8- git config --global credential.helper cache --timeout=7200
+
+# to verify the global configuration
+$git config --global -l
+
+--> after make changes in files
+9- git add files-names
+10- git commit -m "message"
+11- git push -u origin exercise
+
+**Dynamic Inventories**
+#If you cannot use dynamic inventories, then other tools can help you construct groups or extra information. For example, you can use the group_by module to generate group membership based on a fact. That group membership is valid for the rest of the playbook.
+
+---
+    - name: Generate dynamic groups based on architecture
+      ansible.builtin.group_by:
+        key: arch_"{{ ansible_facts['architecture'] }}"
+
+**Testing the Results of Tasks**
+  - name: Check web site from web server
+    ansible.builtin.uri:
+      url: http://{{ ansible_fqdn }}
+      return_content: true
+    register: example_webpage
+    failed_when: example_webpage.status != 200
+
+**Example in loops in specific group**
+    - name: Web application test
+      block:
+        - name: Check web application
+          ansible.builtin.uri:
+            url: http://{{ item }}
+          loop: "{{ groups['webservers'] }}"
+
+
+CHAPTER2:
+Outcomes
+
+Identify Ansible Content Collections inside automation execution environment images.
+
+Run a playbook that requires a collection from an automation execution environment.
+
+Install a collection from automation hub.
+
+Run a playbook that requires a collection from automation hub.
+
+**three things to do with collections in the private registry**
+1- search collection 
+	--> list icon --> Collections > collections > search by name
+2- get galaxy install command
+	--> countuine from step1 click on the collections name 
+3- to get the galaxy configuration in the ansible.cfg
+	--> Collections --> Repository Management --> cli configuration --> the copy past in the ansible.cfg
+	$ cat ansible.cfg
+[defaults]
+inventory = ./inventory
+remote_user = devops
+
+[galaxy]
+server_list = community_repo
+
+[galaxy_server.community_repo]
+url=https://hub.lab.example.com/api/galaxy/content/community/
+token=<put your token here>
+
+4- to load the token
+	--> Collections --> API token management --> Load token --> click copy to clipboard icon and then paste in ansible.cfg
+
+#To Install the Collection
+$ansible-galaxy collection install community.mysql -p collections/
+
+
+CHAPTER3:
+Outcomes
+
+Create automation controller resources, such as credentials, projects, and inventories.
+
+TASK1:
+Create a source control credential named reviewgitcred. The credential must belong to the Default organization. The GitLab user for the credential is student. Use the private key stored in the /home/student/.ssh/gitlab_rsa file on the workstation machine as the SCM private key.
+
+
+1- FROM browser type the link for automation controller 
+2 list icon --> Resources --> Credentials --> add --> follow requirements
+
+
+TASK2: Create an inventory named reviewinventory. The inventory must belong to the Default organization. Add the servera.lab.example.com host to this inventory.
+
+
+1- FROM browser type the link for automation controller 
+2- Resources --> Inventories --> Add --> Add Inventory --> follow the setting --> save
+3 From Hosts tab --> Add --> type servera.lab.example.com --> save
+
+TASK3:Create a project named reviewproject. The project must belong to the Default organization. This project must use the git@git.lab.example.com:student/controller-review.git Git repository and use the reviewgitcred source control credential to authenticate to the repository.  
+
+1- FROM browser type the link for automation controller 
+2- Resources --> Projects --> Add --> follow the setting --> save
+
+
+TASK4: Create a job template named reviewtemplate. Configure the job template to use the reviewinventory inventory, the reviewproject project, the webserver.yml playbook, and the reviewmachinecred machine credential. Configure the job template to use the Automation Hub Default execution environment execution environment.
+
+Launch a job that uses the reviewtemplate job template. If you completed the exercise correctly, then navigating to http://servera.lab.example.com displays the following message:
+
+
+1- FROM browser type the link for automation controller 
+2- Resources --> Templates --> Add --> Add Job Template --> follow the setting --> save --> launch
+3- Click the Details tab. Notice that the job displays Successful as its status.
+4- curl http://servera.lab.example.com
+
+
+
+CHAPTER4:
+Configure automation content navigator by using an ansible-navigator.yml file.
+
+Configure Ansible by using an ansible.cfg file.
+
+Use the ansible-navigator command to review your current Ansible configuration.
+
+
+TASK1: Change to the /home/student/config-review directory for your Ansible project and configure the automation content navigator settings file to use the hub.lab.example.com/ee-supported-rhel8:latest image by default, and set the pull policy to missing.
+
+
+1- vim ./ansible-navigator.yml
+
+---
+ansible-navigator:
+  execution-environment:
+    enabled: true
+    image: ****
+    pull:
+      plociy: missing
+  playbook-artifact:
+   enable: false
+
+
+TASK2: Use automation content navigator to determine how to specify the maximum number of forks Ansible uses to execute tasks on target hosts. Identify the name of the variable and to which section the variable belongs. Modify the ~/config-review/ansible.cfg Ansible configuration file to set the maximum number of forks to 15. Use automation content navigator to verify the changes.
+ 
+
+vim ansible.cfg
+[defaults]
+forks=15
+
+TASK3: Use the ansible-navigator command with the -m stdout and --ask-become-pass options to run the install-web.yml playbook. When prompted, enter student for the privilege escalation password. Verify that the playbook runs successfully.
+
+$ansible-navigator run -m stdout site.yml --ask-become-pass 
+
+
+CHAPTER5:
+OUTCOME
+Organize playbook variables in a directory structure.
+
+Write an inventory file in YAML format.
+
+Assign arbitrary hostnames for remote hosts in an inventory.
+
+#Verify that the same version of the web application is deployed to all back-end web servers. $ for x in 1 2; do curl servera; done
+
+
+#To convert inventory.ini to inventory.yml $ansible-navigator inventory -i inventory --list --yaml -m stdout > inventory.yml
+
+
+CHAPTER6: 
+Outcomes
+
+Change privilege escalation to a more secure configuration.
+
+Add task hooks and handlers to alter the task behavior.
+
+Tag tasks to control their execution
+
+
+TASK2: Enable the timer and profile_tasks callback plug-ins for the playbook. The two plug-ins are part of the ansible.posix collection. If desired, then you can specify the FQCNs for the callback plug-ins.
+
+
+vim ansible.cfg
+callbacks_enabled=ansible.posix.timer,ansible.posix.profile_tasks
+
+#If I tagged a task then I can run this only task through its tag by the next command $ansible-navigator run site.yml --tags apache_installer -m stdout
+
+
+
+
+
+
+
+
+
+
+
+

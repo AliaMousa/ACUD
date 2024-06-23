@@ -1,0 +1,52 @@
+Subject: Successful Operating System Upgrade in Production Environment
+
+Dear Team,
+
+I am pleased to inform you that the operating system upgrade in our production environment has been completed successfully. all target systems are now running on version 9.2 of the Redhat Operating system.
+
+Thank you for your cooperation.
+
+Best regards,
+
+Alia Moussa | System Engineer | Alkan Telecom
++20 111 7016808
+
+Hi Tanisha,
+
+Thank you for bringing the NTP issue on QPN PROD to my attention. We are currently investigating the issue.
+
+Please note that Telecom team is currently working on resolving the issue with the NTP device. Once we have an update, we will promptly reach out to inform you.
+
+If you have any further questions or concerns, please do not hesitate to reach out to us. We appreciate your patience and understanding.
+
+Thanks and Regards,
+
+Alia Moussa | System Engineer | AlkanCIT
++20 111 7016808
+
+Thank you for reaching out. Telecom Team are currently investigating both the NTP and Cisco AAA issues.
+Rest assured, I will provide you with updates as soon as we have more information on the status of both issues. We appreciate your patience and understanding.
+
+Thanks and Regards,
+
+Alia Moussa
+
+
+Hi Tanisha,
+
+Thank you for reaching out. I've successfully extracted the folder to the directory "/root/data_backup_extract".If you encounter any issues with the provided extracted backup, Please let me. and as a last solution I will copy the data_backup_ssn_dev.tar.gz to the bastain
+
+Thanks and Regards,
+Alia
+
+Hi Tanisha,
+
+Thank you for reaching out. I've successfully extracted the folder to the directory "/root/data_backup_extract". If you encounter any issues with the provided extracted backup, please inform me. As a final option, I can also copy the data_backup_ssn_dev.tar.gz instead.
+
+Additionally, could you please check the transmission in QPN and SSN? Also, please test the TNCP connectivity status in DR [SSN-QPN].
+
+Thanks and Regards,
+Alia
+
+
+

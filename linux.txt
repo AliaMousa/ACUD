@@ -1,0 +1,6 @@
+linux features
+- free and easily available
+- secure more than other operating systems(it uses security auditing and password authentication features)
+- offers CLI & GUI 
+Differences between linux and windows?
+- linux is [free - highly secure - it uses a forward slash as a path separator - more efficient - it uses a monolithic kernel - linux file systems are case-sensitive]

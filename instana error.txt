@@ -1,0 +1,9 @@
+error with instana
+inhibitor: possible problems with remote login using root accounte
+
+
+
+
+
+e2fsck -f /dev/sdb
+resize2fs /dev/sdb

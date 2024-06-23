@@ -1,0 +1,39 @@
+AQ1NML-P-OS-REG-2:10.20.50.55
+AQ1NML-D-OS-REG-2:10.20.49.47
+EXAMPLES
+    To create an instance with the latest 'Red Hat Enterprise Linux 8' image
+    available, run:
+
+        $ gcloud compute instances create example-instance \
+            --image-family=rhel-8 --image-project=rhel-cloud \
+            --zone=us-central1-a
+
+    To create instances called 'example-instance-1', 'example-instance-2', and
+    'example-instance-3' in the 'us-central1-a' zone, run:
+
+        $ gcloud compute instances create example-instance-1 \
+            example-instance-2 example-instance-3 --zone=us-central1-a
+
+    To create an instance called 'instance-1' from a source snapshot called
+    'instance-snapshot' in zone 'us-central1-a' and attached regional disk
+    'disk-1', run:
+
+        $ gcloud compute instances create instance-1 \
+            --source-snapshot=https://compute.googleapis.com/compute/v1/\
+        projects/myproject/global/snapshots/instance-snapshot \
+            --zone=us-central1-a --disk=name=disk1,scope=regional
+
+    To create an instance called instance-1 as a Shielded VM instance with
+    Secure Boot, virtual trusted platform module (vTPM) enabled and integrity
+    monitoring, run:
+
+        $ gcloud compute instances create instance-1 --zone=us-central1-a \
+            --shielded-secure-boot --shielded-vtpm \
+            --shielded-integrity-monitoring
+
+    To create a preemptible instance called 'instance-1', run:
+
+        $ gcloud compute instances create instance-1 \
+            --machine-type=n1-standard-1 --zone=us-central1-b \
+            --preemptible --no-restart-on-failure \
+            --maintenance-policy=terminate
