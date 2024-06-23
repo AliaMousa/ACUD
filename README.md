@@ -3,7 +3,9 @@ Pulling Images from private repos on github and Pushing it to Local Repository
 Solution 1: (Manual)
 Step1
 #Create the Local repo 'acud-local-repo' using docker we create a container based on the registry v2 image and we mount it to a persistent volume and use the port 5001
-$mkdir /
+$mkdir /var/lib/registry
+$ls /auth
+$ls /certs/domain.key
 $docker run -d --restart=always --name acud-tncp-images-qpn-registry \
   -v /opt/certs/:/certs \
   -v /opt/docker-storage:/var/lib/registry \
