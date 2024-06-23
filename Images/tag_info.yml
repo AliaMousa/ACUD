@@ -1,0 +1,52 @@
+---
+img_info:
+  - name: AQ2NML-P-OS-REG:5007/cpopen/tncp-catalog:1.4.4-107-1c3ffd76 
+    id: 6e7f5f3208d4
+  - name: AQ2NML-P-OS-REG:5007/cpopen/tncp-operator-bundle:1.4.4-107-1c3ffd76
+    id: 8be729c5ef50
+  - name: AQ2NML-P-OS-REG:5007/cpopen/tncp-operator:1.4.4-107-1c3ffd76
+    id: 337bb586c54e
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-file-collector:2.4.3.0-72-a839e006 
+    id: 893ac1f24de2
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-ping-collector:2.4.3.0-72-a839e006
+    id: 7b201d8e42d7
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-dns-collector:2.4.3.0-72-a839e006
+    id: 30b4764c29d5
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-flow-collector:2.4.3.0-72-a839e006
+    id: eb40f7d67cc4
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-snmp-collector:2.4.3.0-72-a839e006@
+    id: 32e3c00850d0
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-flow-analytics:2.4.3.0-72-a839e006
+    id: 2ffa1f737b8e
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-threshold:2.4.3.0-376-e88fc50b
+    id: 7d71012a2482
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-dashboard:2.4.3.0-376-e88fc50b
+    id: 018e8cd50501
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-ui:2.4.3.0-376-e88fc50b
+    id: d42a4ba2ff95
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-timeseries:2.4.3.0-376-e88fc50b
+    id: c9c4ee245857
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-analytics:2.4.3.0-376-e88fc50b
+    id: 354522ba848f
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-inventory:2.4.3.0-376-e88fc50b
+    id: 5b35b7b5ba45
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-app:2.4.3.0-376-e88fc50b
+    id: aa3d4ff896bd
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-diamond-db:2.4.3.0-376-e88fc50b
+    id: e372c04b71f6
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-solr:9.2.0.3
+    id: 2fe977113642
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-cassandra:4.1.1.3
+    id: 7cf79678247e
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-nifi:1.10.0.42-rc2
+    id: eb96f0d16701
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-kafka:7.3.1.5
+    id: 641bbd81be3e
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-symmetricds:3.27
+    id: 38cdd58241bf
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-zookeeper:7.0.9.2
+    id: 25b8d11e1e43
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-postgres:11.19.1
+    id: 1d17ac8a9285
+  - name: AQ2NML-P-OS-REG:5007/persistentsystems/basecamp-ldap:1.0.13
+    id: e5f15f50d3c6

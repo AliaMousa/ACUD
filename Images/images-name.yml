@@ -1,0 +1,29 @@
+---
+img_name:
+  - icr.io/cpopen/tncp-operator-bundle:1.4.4-107-1c3ffd76@sha256:8b57fa07df9c4ba85372910afc657abfa77cd2350a760fefdca7bfd95e44b974
+  - icr.io/cpopen/tncp-catalog:1.4.4-107-1c3ffd76@sha256:6748e36c7d597cfac83f796e782051d69ffcc1a08b4a14bb3ff33f02d0b8c49e
+  - docker.io/persistentsystems/basecamp-cassandra:4.1.1.3@sha256:ffffa115cad74624f79b5aa8cbb7915b2338db5335d1d0fe119dee67119f1834
+  - docker.io/persistentsystems/basecamp-zookeeper:7.0.9.2@sha256:45868a1af493db495b4243c816ae42046bd4c15a56cbd059c8308fcaa8c30edc
+  - docker.io/persistentsystems/basecamp-kafka:7.3.1.5@sha256:253277e288947b1c9c8ba1f162792dc6db991d7179225c672ae8a6927f91cf02
+  - docker.io/persistentsystems/basecamp-nifi:1.10.0.42-rc2@sha256:f50e85a3401582b83495df0194523f666855fa357fe090fd0d074d4abff5356a
+  - docker.io/persistentsystems/basecamp-postgres:11.19.1@sha256:632fce67650ee48aeffdf5e0e8f2bbbf726070797ea61c57aeee4b35d9a5aa32
+  - docker.io/persistentsystems/basecamp-symmetricds:3.27@sha256:c4268286e42de67571854346cd08ca315d399c32e5fb54a9fbbfdebb9e9ec846
+  - docker.io/persistentsystems/basecamp-ldap:1.0.13@sha256:519a3c565dcfb1dbab07e08fb72ebcc9fb5fb9235625166cb1a91f40118610bc
+  - icr.io/cpopen/tncp-operator:1.4.4-107-1c3ffd76@sha256:7f6844f6239a71741b273cc068f79a233b506711fde8901edd7ff3f5b887e8f1
+  - docker.io/persistentsystems/basecamp-timeseries:2.4.3.0-376-e88fc50b@sha256:e3d07d44484a8d4c586dda075498f7c02dc96ad2e2f6c5ec4419969014abc91b
+  - docker.io/persistentsystems/basecamp-inventory:2.4.3.0-376-e88fc50b@sha256:9bdfd95dad8920ca4c266e83284c6c84ca56d9b9898b1800477e75ba2ed9f884
+  - docker.io/persistentsystems/basecamp-solr:9.2.0.3@sha256:927606b951ec9bc17f555ba5d09043d0cc9611285c25ea7daaf558f0810d84f5
+  - docker.io/persistentsystems/basecamp-analytics:2.4.3.0-376-e88fc50b@sha256:a13400f9aed786759d9dcd68b47a10c466d21c891aae83d3a61beb7ff42a1095
+  - docker.io/persistentsystems/basecamp-threshold:2.4.3.0-376-e88fc50b@sha256:b8c8fb18e36b5cf6a6410dc18e4510d522d4ff58ca4fb4ea1e38965ff016339d
+  - docker.io/persistentsystems/basecamp-dashboard:2.4.3.0-376-e88fc50b@sha256:d6562910cd0c8b9bc753c3f959d34330d2596a89de6cebb20a9840a21a0c13bb
+  - docker.io/persistentsystems/basecamp-ui:2.4.3.0-376-e88fc50b@sha256:e84760cfa103900296eb8c492360df286b06397de9683b181f1c05a52789b576
+  - docker.io/persistentsystems/basecamp-app:2.4.3.0-376-e88fc50b@sha256:bf886920f6f10f566e5d2f8d09d5a799cdcc211b8b0e1a027435970eb7b8e819
+  - docker.io/persistentsystems/basecamp-snmp-collector:2.4.3.0-72-a839e006@sha256:7858d8928279d0dde8a2adad9f4a1a112b60711e976ff18692eb0de80dd4262d
+  - docker.io/persistentsystems/basecamp-file-collector:2.4.3.0-72-a839e006@sha256:4a73460ec5f384c1d2be1c9c70feaa23cba4f0464bb3ec7573412c7a68c1e672
+  - docker.io/persistentsystems/basecamp-flow-collector:2.4.3.0-72-a839e006@sha256:73bd352a22278304df99c3c44fb4a073f5cfceaad940a8c4953221c8cb978967
+  - docker.io/persistentsystems/basecamp-dns-collector:2.4.3.0-72-a839e006@sha256:f4d250b91866095b88da75b610ee04217b827732f32f3affdb3224b51873ee76
+  - docker.io/persistentsystems/basecamp-flow-analytics:2.4.3.0-72-a839e006@sha256:0ddfe31d0fcb5c7133f87309954f4a1a163214c4782304d276529e25bc70a5a8
+  - docker.io/persistentsystems/basecamp-ping-collector:2.4.3.0-72-a839e006@sha256:91c1928b801b0e0123ed64d26b01248a3fec6cc2cc5f8cc41ff5c518f5e37bf9
+  - docker.io/persistentsystems/basecamp-diamond-db:2.4.3.0-376-e88fc50b@sha256:1370ed3e1650f6c4e5d8dd6ab784447d5a2ba17646a8236a3b87095d6717a81c
+  - docker.io/persistentsystems/basecamp-pack-service:2.18.2-799-0b424b11@sha256:118005264537ccec1fc20f009fc2b76f4161df564a5b284e9c10185edb84b061
+  - docker.io/persistentsystems/basecamp-snmp-discovery:2.4.3.0-72-a839e006@sha256:b949686302bfbba0b878e67c1f73d6c75d3b37b801d1931e6159259e2ffbc928

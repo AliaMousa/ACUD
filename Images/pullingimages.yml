@@ -1,0 +1,25 @@
+---
+- name: pulling images
+  hosts: localhost
+  gather_facts: false
+  vars_files:
+    - /root/ansible/images-name.yml
+  tasks:
+    - name: docker pull command
+      loop: "{{img_name}}"
+      shell: "docker pull {{item}}"
+      register: pull_output
+      ignore_errors: true
+
+    - name: Check pull status
+      debug:
+        msg: "Image {{ item.item }} pulled successfully"
+      loop: "{{ pull_output.results }}"
+      when: item.rc == 0
+
+    - name: Handle pull errors
+      fail:
+        msg: "Failed to pull image {{ item.item }}"
+      loop: "{{ pull_output.results }}"
+      when: item.rc != 0
+

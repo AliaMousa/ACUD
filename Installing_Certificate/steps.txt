@@ -1,0 +1,5 @@
+$cp ./nsp.truststore /etc/ssl/certs/nsp_truststore_2
+$ keytool -list -rfc -keystore nsp_truststore_2 -storepass NokiaNsp1!
+$cd /etc/ssl/certs/
+$vim /root/Downloads/nsp_truststore_2.crt
+$
