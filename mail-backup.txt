@@ -1,10 +1,1 @@
-openshift container engine
 
-
-Hi Yunise,
-
-Thank you for reaching out. As discussed with Apoorv, the backup files are indeed located at the /root location in our 	QPN PROD environment.
-I've attached a screenshot for your reference, showing the backup file in the /root directory. If you encounter any issues locating it or  find that the file provided is incorrect, please feel free to let me know, and I'll be happy to help.
-
-Best regards,
-Alia Moussa
