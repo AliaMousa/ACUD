@@ -1,0 +1,649 @@
+[root@db2 ansible]# 
+unknown shorthand flag: ' ' in - name: AS2NML-P-OS-REG:5007/cpopen/tncp-catalog:1.4.4-107-1c3ffd76
+See 'docker push --help'.
+The push refers to repository [AS2NML-P-OS-REG:5007/cpopen/tncp-operator-bundle]
+1b58cc555851: Pushed 
+2a583c4fa60c: Pushed 
+1.4.4-107-1c3ffd76: digest: sha256:8b57fa07df9c4ba85372910afc657abfa77cd2350a760fefdca7bfd95e44b974 size: 732
+The push refers to repository [AS2NML-P-OS-REG:5007/cpopen/tncp-operator]
+be9020d3e8c8: Pushed 
+7ab91f8e923f: Pushed 
+5f90bae725e3: Pushed 
+579dd9c62787: Pushed 
+321e51549857: Pushed 
+adf6f3c771c8: Pushed 
+94ae6745b1cb: Pushed 
+24cf8913cf1d: Pushed 
+0e272f4ffb2d: Pushed 
+79672f65dcb9: Pushed 
+9a8daaee7071: Pushed 
+6df74a559832: Pushed 
+0b1eeabebe98: Pushed 
+597378b41ce9: Pushed 
+5f3617cdbbfd: Pushed 
+02c9dfafa711: Pushed 
+b5d2cc226b2a: Pushed 
+759c4bc4ab9d: Pushed 
+1.4.4-107-1c3ffd76: digest: sha256:7f6844f6239a71741b273cc068f79a233b506711fde8901edd7ff3f5b887e8f1 size: 4081
+invalid reference format
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-ping-collector]
+7c46bbb9dc90: Pushed 
+a60c47983aa3: Pushed 
+5df907dc775a: Pushed 
+5fb216c04829: Pushed 
+2738f62faa49: Pushed 
+79672f65dcb9: Mounted from cpopen/tncp-operator 
+9a8daaee7071: Mounted from cpopen/tncp-operator 
+6df74a559832: Mounted from cpopen/tncp-operator 
+0b1eeabebe98: Mounted from cpopen/tncp-operator 
+597378b41ce9: Mounted from cpopen/tncp-operator 
+5f3617cdbbfd: Mounted from cpopen/tncp-operator 
+02c9dfafa711: Mounted from cpopen/tncp-operator 
+b5d2cc226b2a: Mounted from cpopen/tncp-operator 
+759c4bc4ab9d: Mounted from cpopen/tncp-operator 
+2.4.3.0-72-a839e006: digest: sha256:91c1928b801b0e0123ed64d26b01248a3fec6cc2cc5f8cc41ff5c518f5e37bf9 size: 3258
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-dns-collector]
+e3de607b6e94: Pushed 
+a2d1a9bfc2ab: Pushed 
+678559413baa: Pushed 
+4360d5832d32: Pushed 
+7e9b57a2a16e: Pushed 
+dae3b5ff1cc3: Pushed 
+72a2453aac1f: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-ping-collector 
+9a8daaee7071: Mounted from persistentsystems/basecamp-ping-collector 
+6df74a559832: Mounted from persistentsystems/basecamp-ping-collector 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-ping-collector 
+597378b41ce9: Mounted from persistentsystems/basecamp-ping-collector 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-ping-collector 
+02c9dfafa711: Mounted from persistentsystems/basecamp-ping-collector 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-ping-collector 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-ping-collector 
+2.4.3.0-72-a839e006: digest: sha256:f4d250b91866095b88da75b610ee04217b827732f32f3affdb3224b51873ee76 size: 3667
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-flow-collector]
+d68beeb0c71b: Pushed 
+f41e6019e5e1: Pushed 
+d37860ff708e: Pushed 
+c43ac85701b8: Pushed 
+784f09c9215a: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-dns-collector 
+9a8daaee7071: Mounted from persistentsystems/basecamp-dns-collector 
+6df74a559832: Mounted from persistentsystems/basecamp-dns-collector 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-dns-collector 
+597378b41ce9: Mounted from persistentsystems/basecamp-dns-collector 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-dns-collector 
+02c9dfafa711: Mounted from persistentsystems/basecamp-dns-collector 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-dns-collector 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-dns-collector 
+2.4.3.0-72-a839e006: digest: sha256:73bd352a22278304df99c3c44fb4a073f5cfceaad940a8c4953221c8cb978967 size: 3254
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-snmp-collector]
+bdd4265b1a3a: Pushed 
+bb464930ae37: Pushed 
+19839edd6d24: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-flow-collector 
+9a8daaee7071: Mounted from persistentsystems/basecamp-flow-collector 
+6df74a559832: Mounted from persistentsystems/basecamp-flow-collector 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-flow-collector 
+597378b41ce9: Mounted from persistentsystems/basecamp-flow-collector 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-flow-collector 
+02c9dfafa711: Mounted from persistentsystems/basecamp-flow-collector 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-flow-collector 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-flow-collector 
+2.4.3.0-72-a839e006: digest: sha256:7858d8928279d0dde8a2adad9f4a1a112b60711e976ff18692eb0de80dd4262d size: 2836
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-flow-analytics]
+b68f66d244be: Pushed 
+676b325d4bdf: Pushed 
+bdc93554b3c4: Pushed 
+f5b1b2511894: Pushed 
+f7e9dc33f644: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-snmp-collector 
+9a8daaee7071: Mounted from persistentsystems/basecamp-snmp-collector 
+6df74a559832: Mounted from persistentsystems/basecamp-snmp-collector 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-snmp-collector 
+597378b41ce9: Mounted from persistentsystems/basecamp-snmp-collector 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-snmp-collector 
+02c9dfafa711: Mounted from persistentsystems/basecamp-snmp-collector 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-snmp-collector 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-snmp-collector 
+2.4.3.0-72-a839e006: digest: sha256:0ddfe31d0fcb5c7133f87309954f4a1a163214c4782304d276529e25bc70a5a8 size: 3253
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-threshold]
+b9531852d53b: Pushed 
+f47e2123bcf9: Pushed 
+7b0385fc1e37: Pushed 
+4cfd8faa7b65: Pushed 
+ce7bffc08f46: Pushed 
+ca71661dbbc1: Pushed 
+d352257a01c5: Pushed 
+e8883b33a15b: Pushed 
+399d0d044d33: Pushed 
+718610781d25: Pushed 
+46519101682a: Pushed 
+ac028329f54c: Pushed 
+706078d28b05: Pushed 
+b9463ba88b36: Pushed 
+30d143383bd3: Pushed 
+d1140a32fe21: Pushed 
+23acdbedc952: Pushed 
+0488cb397793: Pushed 
+259e3d40450d: Pushed 
+353f76a90bd1: Pushed 
+0c7cad7a268f: Pushed 
+baf257b2e8fc: Pushed 
+3fbb62675b8d: Pushed 
+181803892391: Pushed 
+d86ac55cb764: Pushed 
+f877e13d8af4: Pushed 
+a76aac265dcb: Pushed 
+d967b4f13c55: Pushed 
+7739c5c54a13: Pushed 
+a69c129dd452: Pushed 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-flow-analytics 
+2.4.3.0-376-e88fc50b: digest: sha256:b8c8fb18e36b5cf6a6410dc18e4510d522d4ff58ca4fb4ea1e38965ff016339d size: 6809
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-dashboard]
+ee9602992c76: Pushed 
+b11a40af6c94: Pushed 
+cbb77248162e: Pushed 
+5973447652fe: Pushed 
+2894b2f7c00b: Pushed 
+d6fc55eea090: Pushed 
+91dbb0450737: Pushed 
+abcd42fde121: Pushed 
+903de0dbf6bf: Pushed 
+d4bd44742e90: Pushed 
+b9463ba88b36: Mounted from persistentsystems/basecamp-threshold 
+30d143383bd3: Mounted from persistentsystems/basecamp-threshold 
+d1140a32fe21: Mounted from persistentsystems/basecamp-threshold 
+23acdbedc952: Mounted from persistentsystems/basecamp-threshold 
+0488cb397793: Mounted from persistentsystems/basecamp-threshold 
+259e3d40450d: Mounted from persistentsystems/basecamp-threshold 
+353f76a90bd1: Mounted from persistentsystems/basecamp-threshold 
+0c7cad7a268f: Mounted from persistentsystems/basecamp-threshold 
+baf257b2e8fc: Mounted from persistentsystems/basecamp-threshold 
+3fbb62675b8d: Mounted from persistentsystems/basecamp-threshold 
+181803892391: Mounted from persistentsystems/basecamp-threshold 
+d86ac55cb764: Mounted from persistentsystems/basecamp-threshold 
+f877e13d8af4: Mounted from persistentsystems/basecamp-threshold 
+a76aac265dcb: Mounted from persistentsystems/basecamp-threshold 
+d967b4f13c55: Mounted from persistentsystems/basecamp-threshold 
+7739c5c54a13: Mounted from persistentsystems/basecamp-threshold 
+a69c129dd452: Mounted from persistentsystems/basecamp-threshold 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-threshold 
+2.4.3.0-376-e88fc50b: digest: sha256:d6562910cd0c8b9bc753c3f959d34330d2596a89de6cebb20a9840a21a0c13bb size: 6191
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-ui]
+21b5dfcfd202: Pushed 
+6d63b2aad2c8: Pushed 
+c14dd4fbd1f5: Pushed 
+957f0e1f6bca: Pushed 
+93b918640f4e: Pushed 
+dfb84bfe21ed: Pushed 
+8f1a65d33078: Pushed 
+51c297ad112c: Pushed 
+a1812b2b58b9: Pushed 
+c50a7b6492df: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-flow-analytics 
+9a8daaee7071: Mounted from persistentsystems/basecamp-flow-analytics 
+6df74a559832: Mounted from persistentsystems/basecamp-flow-analytics 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-flow-analytics 
+597378b41ce9: Mounted from persistentsystems/basecamp-flow-analytics 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-flow-analytics 
+02c9dfafa711: Mounted from persistentsystems/basecamp-flow-analytics 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-flow-analytics 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-dashboard 
+2.4.3.0-376-e88fc50b: digest: sha256:e84760cfa103900296eb8c492360df286b06397de9683b181f1c05a52789b576 size: 4292
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-timeseries]
+d1c2c674d02a: Pushed 
+3320daa78efc: Pushed 
+1d0c4cfa6cde: Pushed 
+0b37993315a9: Pushed 
+3939197c79c0: Pushed 
+0762991b186c: Pushed 
+de0939ab1a90: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-ui 
+9a8daaee7071: Mounted from persistentsystems/basecamp-ui 
+6df74a559832: Mounted from persistentsystems/basecamp-ui 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-ui 
+597378b41ce9: Mounted from persistentsystems/basecamp-ui 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-ui 
+02c9dfafa711: Mounted from persistentsystems/basecamp-ui 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-ui 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-ui 
+2.4.3.0-376-e88fc50b: digest: sha256:e3d07d44484a8d4c586dda075498f7c02dc96ad2e2f6c5ec4419969014abc91b size: 3674
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-analytics]
+f5ed12828041: Pushed 
+3fec3b6bed59: Pushed 
+c4f911771de3: Pushed 
+74a4eda4b087: Pushed 
+c439f4854e47: Pushed 
+5d2d704ee2ec: Pushed 
+b88d48e7d2ba: Pushed 
+f435b1010d17: Pushed 
+fde302a97001: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-timeseries 
+9a8daaee7071: Mounted from persistentsystems/basecamp-timeseries 
+6df74a559832: Mounted from persistentsystems/basecamp-timeseries 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-timeseries 
+597378b41ce9: Mounted from persistentsystems/basecamp-timeseries 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-timeseries 
+02c9dfafa711: Mounted from persistentsystems/basecamp-timeseries 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-timeseries 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-timeseries 
+2.4.3.0-376-e88fc50b: digest: sha256:a13400f9aed786759d9dcd68b47a10c466d21c891aae83d3a61beb7ff42a1095 size: 4082
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-inventory]
+d0579753f5fc: Pushed 
+75239068c9f7: Pushed 
+a524021c4cbf: Pushed 
+6fe9fb92ac19: Pushed 
+ea7358c8b36e: Pushed 
+e786c27df35b: Pushed 
+47edd2cce0d5: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-analytics 
+9a8daaee7071: Mounted from persistentsystems/basecamp-analytics 
+6df74a559832: Mounted from persistentsystems/basecamp-analytics 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-analytics 
+597378b41ce9: Mounted from persistentsystems/basecamp-analytics 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-analytics 
+02c9dfafa711: Mounted from persistentsystems/basecamp-analytics 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-analytics 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-analytics 
+2.4.3.0-376-e88fc50b: digest: sha256:9bdfd95dad8920ca4c266e83284c6c84ca56d9b9898b1800477e75ba2ed9f884 size: 3668
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-app]
+3ea3c81e1ad9: Pushed 
+e09862b5c2b9: Pushed 
+c40139f684d5: Pushed 
+db240a634fd3: Pushed 
+a095adfcf29f: Pushed 
+d0f85099c9f2: Pushed 
+4702564a1c79: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-inventory 
+9a8daaee7071: Mounted from persistentsystems/basecamp-inventory 
+6df74a559832: Mounted from persistentsystems/basecamp-inventory 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-inventory 
+597378b41ce9: Mounted from persistentsystems/basecamp-inventory 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-inventory 
+02c9dfafa711: Mounted from persistentsystems/basecamp-inventory 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-inventory 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-inventory 
+2.4.3.0-376-e88fc50b: digest: sha256:bf886920f6f10f566e5d2f8d09d5a799cdcc211b8b0e1a027435970eb7b8e819 size: 3667
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-diamond-db]
+bb8320e066bf: Pushed 
+f2f1c3bee57a: Pushed 
+c937a972a653: Pushed 
+8859b238d554: Pushed 
+e96bd86d5a21: Pushed 
+17f01fae7f57: Pushed 
+44cb881e8d85: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-app 
+9a8daaee7071: Mounted from persistentsystems/basecamp-app 
+6df74a559832: Mounted from persistentsystems/basecamp-app 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-app 
+597378b41ce9: Mounted from persistentsystems/basecamp-app 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-app 
+02c9dfafa711: Mounted from persistentsystems/basecamp-app 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-app 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-app 
+2.4.3.0-376-e88fc50b: digest: sha256:1370ed3e1650f6c4e5d8dd6ab784447d5a2ba17646a8236a3b87095d6717a81c size: 3669
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-solr]
+f7753ec494da: Pushed 
+c2fcd6e9be55: Pushed 
+f673ec06e48f: Pushed 
+10590452fd77: Pushed 
+27f50c9b3d7a: Pushed 
+a25678d6d4e8: Pushed 
+9.2.0.3: digest: sha256:d18811c5627e2e9afdba08d3c58a33a5171de31061336f246f524f9074c0a154 size: 1579
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-cassandra]
+09e8d02f8d18: Pushed 
+17e76275d774: Pushed 
+e4611465bd2a: Pushed 
+6bead9e55dc7: Pushed 
+a23389c9a0cf: Pushed 
+517e091a9149: Pushed 
+a1362de8acf9: Pushed 
+cee0b8c41d3d: Pushed 
+d4dbe40e37cc: Pushed 
+875db4323ae6: Pushed 
+351277c49d7d: Pushed 
+5fe561e78091: Pushed 
+e3dee15687d2: Pushed 
+df4dd7010357: Pushed 
+78dd8d8d8e00: Pushed 
+6f37ca73c74f: Pushed 
+4.1.1.3: digest: sha256:ffffa115cad74624f79b5aa8cbb7915b2338db5335d1d0fe119dee67119f1834 size: 3682
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-nifi]
+558e7c538d21: Preparing 
+6105bcd6f73e: Preparing 
+6896e77da0ab: Preparing 
+ddbbe37801ca: Preparing 
+bff8012408c7: Preparing 
+74217f9f19f7: Preparing 
+b16ff88b9427: Preparing 
+89fb19c011bc: Preparing 
+b6155108bbf1: Preparing 
+89fb19c011bc: Waiting 
+199e4c8159df: Waiting 
+37d6782ab129: Waiting 
+a29625ba08c5: Waiting 
+b6155108bbf1: Waiting 
+20a49608faae: Waiting 
+3777e3c27653: Waiting 
+d6f0a810f515: Waiting 
+b60f3081e643: Waiting 
+637380042661: Waiting 
+16979407a8d3: Waiting 
+9ea16dd88c94: Waiting 
+6c25e773d318: Waiting 
+850cda7f289e: Waiting 
+30254bb2ebc8: Waiting 
+786406b8f25c: Waiting 
+81adbaeb2cf8: Waiting 
+9c28e80c56cb: Waiting 
+e4d3adcbaea2: Waiting 
+4e9ad4e4994e: Waiting 
+8a25ba3b03ef: Waiting 
+63a093e13d99: Waiting 
+3218434db34e: Waiting 
+34d808f3326a: Waiting 
+040278191b1c: Waiting 
+30254bb2ebc8: Pushed 
+4a0005da8aa4: Pushed 
+69b574776628: Pushed 
+6e9324229ada: Pushed 
+9cfbff874b34: Pushed 
+5e9edb54719e: Pushed 
+afb9a3eafde7: Pushed 
+66db65ef8c2f: Pushed 
+2b1feb906338: Pushed 
+e8d7cae679e2: Pushed 
+2db04c8f595d: Pushed 
+3158abf5868c: Pushed 
+3ecf28342f98: Pushed 
+81e6306ab041: Pushed 
+06c176b84f60: Pushed 
+74579acfb6cf: Pushed 
+b047d52da911: Pushed 
+0404707b551d: Pushed 
+dc7f0a533869: Pushed 
+495a5c607d14: Pushed 
+1462b638f36a: Pushed 
+f9f66113125d: Pushed 
+62225a6ddaf3: Pushed 
+d11fd02057ff: Pushed 
+fb058c488b8f: Pushed 
+9f96447f0ab7: Pushed 
+ebc98062b441: Pushed 
+3fdb060cea46: Pushed 
+612278663ad4: Pushed 
+ccb9b68523fd: Pushed 
+00bcea93703b: Pushed 
+688e187d6c79: Pushed 
+1.10.0.42-rc2: digest: sha256:f50e85a3401582b83495df0194523f666855fa357fe090fd0d074d4abff5356a size: 14185
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-kafka]
+54807925ee6b: Pushed 
+448accc20f66: Pushed 
+8b36db6d9480: Pushed 
+f7273b628f6e: Pushed 
+51a0f4086c67: Pushed 
+247795a686e3: Pushed 
+1591edd85ab1: Pushed 
+c179ae9141fc: Pushed 
+23df3326411b: Pushed 
+16a35f73f8af: Pushed 
+579a6e6822ee: Pushed 
+37f7799b1bfe: Pushed 
+6fcac599bb8e: Pushed 
+20529b9dd58e: Pushed 
+39c896d3e7d7: Pushed 
+32017f73a6c9: Pushed 
+998585ff494f: Pushed 
+05118f4fc484: Pushed 
+2e18cb7568e7: Pushed 
+f54d72295f3a: Pushed 
+82edd0ba3df1: Pushed 
+0c2cc196e3fa: Pushed 
+2ed47ae01f74: Pushed 
+9390ee00a9e8: Pushed 
+a4973385360d: Pushed 
+7.3.1.5: digest: sha256:253277e288947b1c9c8ba1f162792dc6db991d7179225c672ae8a6927f91cf02 size: 5550
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-symmetricds]
+53c6dfc1fa53: Preparing 
+2b7e1f1a7105: Preparing 
+1519f2eee118: Preparing 
+b534b5969db7: Preparing 
+c9f0e8c1d991: Preparing 
+ebd0e347fafe: Preparing 
+06210ffa4e22: Preparing 
+ab74fd30dd15: Preparing 
+4c184c679bfc: Preparing 
+91e29a3d3a28: Preparing 
+2b7e1f1a7105: Pushed 
+5d92129d5de7: Pushed 
+49a98c3d51f3: Pushed 
+a756477f9730: Pushed 
+5f70bf18a086: Pushed 
+8ef8b1f4a096: Pushed 
+469c76a3d041: Pushed 
+140e0fefbc27: Pushed 
+8fe783e6c470: Pushed 
+cdb973d32c77: Pushed 
+d8a5b1efde0a: Pushed 
+40f1128f759f: Pushed 
+1d8205ab589d: Pushed 
+42ff6eaad8d5: Pushed 
+a991381fc025: Pushed 
+e98195f1759f: Pushed 
+b29f220ca044: Pushed 
+b80f98c42e76: Pushed 
+1e3e97de739a: Pushed 
+55884ce247df: Pushed 
+d57ef4013a36: Pushed 
+ea0a29b60255: Pushed 
+6067a0534074: Pushed 
+3b371c58b594: Pushed 
+4c10288d0975: Pushed 
+bdd03c64adf9: Pushed 
+2701829c7b10: Pushed 
+efb6e51993fc: Pushed 
+26d714e6af27: Pushed 
+00c57628a24d: Pushed 
+73de97ce5ae1: Pushed 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-diamond-db 
+3.27: digest: sha256:c4268286e42de67571854346cd08ca315d399c32e5fb54a9fbbfdebb9e9ec846 size: 9297
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-zookeeper]
+4c20138e70eb: Pushed 
+59ff5830d3af: Pushed 
+bcec453685aa: Pushed 
+0544923eab1f: Pushed 
+58cef255998e: Pushed 
+ee0cce22bf5c: Pushed 
+dc0aea708e5a: Pushed 
+a87f3d8c3e46: Pushed 
+d5d84eb9ec00: Pushed 
+657c6f397945: Pushed 
+17252cc831fe: Pushed 
+783a98c515e9: Pushed 
+48bad7d3668c: Pushed 
+c7fcc879764a: Pushed 
+ed74f63b169c: Pushed 
+f65498dc7312: Pushed 
+d53c4764cac7: Pushed 
+2336893280e4: Pushed 
+68a26c3ef193: Pushed 
+241c568dd2ee: Pushed 
+e94804aeb496: Pushed 
+788855802758: Pushed 
+969795712c49: Pushed 
+7.0.9.2: digest: sha256:45868a1af493db495b4243c816ae42046bd4c15a56cbd059c8308fcaa8c30edc size: 5128
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-postgres]
+e1f9b55b29fc: Pushed 
+cd727b38fd33: Pushed 
+c8f0c6d731fd: Pushed 
+40c1a196c590: Pushed 
+eab05a7fcb72: Pushed 
+325b64db5786: Pushed 
+acc69dce2c9e: Pushed 
+b893da7557ba: Pushed 
+4a99f3f88418: Pushed 
+ba93e206464d: Pushed 
+e80fccfecee3: Pushed 
+6e5fa503410f: Pushed 
+c9a82fac1adb: Pushed 
+e93e768aace3: Pushed 
+99325206967d: Pushed 
+ed7b0ef3bf5b: Pushed 
+11.19.1: digest: sha256:632fce67650ee48aeffdf5e0e8f2bbbf726070797ea61c57aeee4b35d9a5aa32 size: 3666
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-ldap]
+2cc740d3b855: Pushed 
+84f3c6d5faa7: Pushed 
+6d0f3564fb66: Pushed 
+32d071b9c2e1: Pushed 
+291fea28604c: Pushed 
+3c459c90c391: Pushed 
+e2746a499fc3: Pushed 
+e77f9bc16d26: Pushed 
+47919c811451: Pushed 
+c087cfba1492: Pushed 
+e14d550b19ba: Pushed 
+3cc8fb9265f9: Pushed 
+b29e45fcbfe0: Pushed 
+1ad1d903ef1d: Pushed 
+1.0.13: digest: sha256:519a3c565dcfb1dbab07e08fb72ebcc9fb5fb9235625166cb1a91f40118610bc size: 3248
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-pack-service]
+486851ced772: Pushed 
+94c14f57bd18: Pushed 
+2c7195cfbd77: Pushed 
+9d6edead67a7: Pushed 
+976857ae0a5f: Pushed 
+f32c739d5647: Pushed 
+526c6844a235: Pushed 
+9f4b21cf28fa: Pushed 
+270bf2bd12a0: Pushed 
+29e500b14e0f: Pushed 
+b99e4ce7135b: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-diamond-db 
+9a8daaee7071: Mounted from persistentsystems/basecamp-diamond-db 
+6df74a559832: Mounted from persistentsystems/basecamp-diamond-db 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-diamond-db 
+597378b41ce9: Mounted from persistentsystems/basecamp-diamond-db 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-diamond-db 
+02c9dfafa711: Mounted from persistentsystems/basecamp-diamond-db 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-diamond-db 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-symmetricds 
+2.18.2-799-0b424b11: digest: sha256:118005264537ccec1fc20f009fc2b76f4161df564a5b284e9c10185edb84b061 size: 4513
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-snmp-discovery]
+1958a38b4d9d: Pushed 
+2b7acbfe87e6: Pushed 
+e2604ddb3afd: Pushed 
+9664904e375f: Pushed 
+1f37d219489f: Pushed 
+e1d1cb67f738: Pushed 
+fd83a5be9a98: Pushed 
+8742e2255189: Pushed 
+c4cbe29ed65b: Pushed 
+26aa1a2d41fd: Pushed 
+a4904561f3b5: Pushed 
+5a8da0999763: Pushed 
+17b8760d0a6a: Pushed 
+42b4a497a1be: Pushed 
+fc25ba83b052: Pushed 
+6fd4393c16b6: Pushed 
+055c4c885e0c: Pushed 
+7ac60805d406: Pushed 
+103fd9ecea73: Pushed 
+d3a2241de526: Pushed 
+fbc137aa0eb8: Pushed 
+79672f65dcb9: Mounted from persistentsystems/basecamp-pack-service 
+9a8daaee7071: Mounted from persistentsystems/basecamp-pack-service 
+6df74a559832: Mounted from persistentsystems/basecamp-pack-service 
+0b1eeabebe98: Mounted from persistentsystems/basecamp-pack-service 
+597378b41ce9: Mounted from persistentsystems/basecamp-pack-service 
+5f3617cdbbfd: Mounted from persistentsystems/basecamp-pack-service 
+02c9dfafa711: Mounted from persistentsystems/basecamp-pack-service 
+b5d2cc226b2a: Mounted from persistentsystems/basecamp-pack-service 
+759c4bc4ab9d: Mounted from persistentsystems/basecamp-pack-service 
+2.4.3.0-72-a839e006: digest: sha256:b949686302bfbba0b878e67c1f73d6c75d3b37b801d1931e6159259e2ffbc928 size: 6570
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-dashboard]
+c985d74f9705: Pushed 
+972b774c8e6f: Pushed 
+8a08f86facad: Pushed 
+026d28afc1f1: Pushed 
+31edde9f4d0a: Pushed 
+b4a98df31705: Pushed 
+70654fad7bc1: Pushed 
+cb521b8d09c8: Pushed 
+4a7a3d9b7a71: Pushed 
+ee315b8b6469: Pushed 
+e81557c2bfe6: Pushed 
+fee533b053b5: Pushed 
+9716099087a0: Pushed 
+36067dbd28f7: Pushed 
+7e0ea350b7ee: Pushed 
+0d9743c251ce: Pushed 
+46f2d181ad7a: Pushed 
+f17c7dbf2648: Pushed 
+ab88057a79d3: Pushed 
+46c8fadd94a3: Pushed 
+6c47a5339549: Pushed 
+ca7fa27d3d15: Pushed 
+6d4f3f899e4a: Pushed 
+962c014fa9e7: Pushed 
+2fe081f242fa: Pushed 
+ba075fdd623a: Pushed 
+cd8b0f34fee0: Pushed 
+48bbc3bb7b39: Pushed 
+2.4.5.0-490-04e0341e: digest: sha256:044f646f197ebb4fca0f439f66c37bead37ad9e19d6bbaef0c94010ed8bdf447 size: 6189
+invalid reference format
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-snmp-discovery]
+b62619ec9405: Pushed 
+99e6c3281602: Pushed 
+e1e4fedfe444: Pushed 
+ff53a7542e54: Pushed 
+d77cd7407015: Pushed 
+58609f8a42a8: Pushed 
+78fa4b2aa4b4: Pushed 
+8f7d550a2dee: Pushed 
+907ae3b76980: Pushed 
+2ae929e6def8: Pushed 
+249e86cde995: Pushed 
+b68506f04493: Pushed 
+1b6b36df345d: Pushed 
+781c22890f8b: Pushed 
+4b92b6a31eeb: Pushed 
+332bf44476b6: Pushed 
+ca45056ef57e: Pushed 
+968bfab8303b: Pushed 
+92353e608f97: Pushed 
+9a70bf866a28: Pushed 
+6e646d38783d: Pushed 
+e81557c2bfe6: Mounted from persistentsystems/basecamp-dashboard 
+9a8daaee7071: Layer already exists 
+e4704b506131: Pushed 
+5e55274ada7c: Pushed 
+c5c5ca649a4f: Pushed 
+598243c27e27: Pushed 
+2d35ddfff19a: Pushed 
+eb495cc90d8d: Pushed 
+48bbc3bb7b39: Mounted from persistentsystems/basecamp-dashboard 
+2.4.5.0-69-29059ecb-0914: digest: sha256:a60fb81d917eb9af94f25e0eba3312e7b6034575621c921a2602df1b64e2d610 size: 6570
+The push refers to repository [AS2NML-P-OS-REG:5007/persistentsystems/basecamp-pack-service]
+e3cec48fa31d: Pushed 
+0c1b3901a80c: Pushed 
+dce6a1849524: Pushed 
+5beea5f35dbb: Pushed 
+a9da6841db67: Pushed 
+8781e2fe39ee: Pushed 
+9087ff2d264c: Pushed 
+20dee71efa8f: Pushed 
+0a3ed19e7978: Pushed 
+eee0bdab05f2: Pushed 
+a43843add289: Pushed 
+79672f65dcb9: Layer already exists 
+9a8daaee7071: Layer already exists 
+6df74a559832: Layer already exists 
+0b1eeabebe98: Layer already exists 
+597378b41ce9: Layer already exists 
+5f3617cdbbfd: Layer already exists 
+02c9dfafa711: Layer already exists 
+b5d2cc226b2a: Layer already exists 
+759c4bc4ab9d: Layer already exists 
+2.18.10-926-63a1bfab: digest: sha256:82a8559668c38e16ec246b0bde2814531887465f9a345024f48657ea3c17dd1a size: 4513
+
+[root@db2 ansible]# 

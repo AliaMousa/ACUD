@@ -1,0 +1,11 @@
+[upgrade-BaseOS]
+name=upgrade-BaseOS
+baseurl=http://localhost/cdrom/BaseOS
+gpgcheck=0
+enabled=1
+
+[upgrade-AppStream]
+name=upgrade-AppStream
+baseurl=http://localhost/cdrom/AppStream
+gpgcheck=0
+enabled=1

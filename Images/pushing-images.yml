@@ -1,0 +1,14 @@
+---
+- name: pushing images
+  hosts: ub
+  become: yes
+  become_user: root
+  gather_facts: false
+  vars_files:
+    - /root/ansible/tag_infotest.yml
+  tasks:
+    - name: docker push command
+      loop: "{{img_info}}"
+      shell: "docker push {{item.name}}"
+      ignore_errors: true
+

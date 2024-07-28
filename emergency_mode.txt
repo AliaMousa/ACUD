@@ -1,0 +1,117 @@
+# **Issue**
+# Emergency Mode State [The Operating System enter in the emergency mode and you can access the mahcine in the safe mode afer type the machine password]
+# Reasons for This Issue may be the following
+File System Errors:
+
+Corrupted or missing file system components.
+Errors in /etc/fstab file configuration (e.g., incorrect mount points).
+Hardware Issues:
+
+Failing or disconnected hard drives.
+Hardware component failure or misconfiguration.
+Kernel or Bootloader Issues:
+
+Incorrect or corrupted kernel parameters.
+Problems with GRUB configuration.
+Missing or Corrupted System Files:
+
+Critical system files being deleted or corrupted.
+Issues with essential libraries or binaries.
+Failed System Updates or Upgrades:
+
+Incomplete or failed updates/upgrades that affect critical system components.
+Permission Issues:
+
+Incorrect permissions on critical system files or directories.
+Hardware Configuration Changes:
+
+Recent changes in hardware configuration not reflected in the system settings.
+Network File System (NFS) Issues:
+
+Problems mounting NFS shares defined in /etc/fstab.
+
+
+# Troubleshooting
+# First check the /etc/fstab file
+
+Inspect /etc/fstab:
+
+Ensure all entries in /etc/fstab are correct and there are no syntax errors.
+Comment out non-essential entries to isolate the problem.
+
+cat /etc/fstab
+
+# Check Filesystem Status:
+
+df -h
+lsblk
+
+# In our state the issue was in the /etc/fstab in cdrom
+
+systemctl --failed
+
+# I get an Output tell me the issue in /mount/cdrom 
+
+first I check if the file exists through the following command
+
+ls -ld /mount/cdrom
+
+second I ensured that the redhat iso is connected to the vm and at power on 
+
+--> check the box connect at Power On
+
+------------------------------------------------
+for troubleshooting in the other reasons
+------------------------------------------------
+
+
+Check File System Integrity:
+
+Boot into emergency mode and run fsck on the file systems.
+
+fsch /dev/sdxn
+
+# Identify Errors in Journal Logs:
+
+journalctl -xb | grep -i "failed"
+journalctl -xb | grep -i "unable"
+journalctl -xb | grep -i "mount"
+
+# Check Systemd Status:
+# Use systemctl to check the status of systemd units and identify any failed services.
+
+systemctl status
+systemctl --failed
+
+# Check the Status of Systemd Units:
+
+systemctl list-units --state=failed
+
+# Remount Root Filesystem:
+
+mount -o remount,rw /
+
+# Verify Kernel and GRUB Configuration:
+# Check and update kernel parameters if necessary.
+# Ensure GRUB configuration is correct.
+
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
+#Review Recent Changes:
+
+# Undo any recent hardware or software changes.
+ --> Revert to a previous working state if possible.
+ --> Check for Missing or Corrupted Files:
+
+# Reinstall missing or corrupted system packages.
+
+rpm -Va
+
+# Boot into Rescue Mode:
+
+  Use Red Hat installation media to boot into rescue mode for more extensive troubleshooting.
+
+# Seek Help from Logs:
+
+Look at various logs like /var/log/messages or /var/log/syslog for clues.
+

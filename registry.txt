@@ -1,0 +1,1 @@
+cp /mnt/hd1/registry.tar.gz /data/registry -vvv

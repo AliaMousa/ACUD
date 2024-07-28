@@ -1,0 +1,9 @@
+error with degist for OVF vm manifest
+
+from powershell 
+cd location of ovf files
+dir
+Get-FileHash * -Algorithm SHA256
+remove .md file
+and copy the ovf once again
+open the copy from the vmware
